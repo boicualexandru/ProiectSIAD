@@ -84,6 +84,12 @@
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="DGVVanzari.vb" />
+    <Compile Include="Grafic Evolutie Pret.Designer.vb">
+      <DependentUpon>Grafic Evolutie Pret.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Grafic Evolutie Pret.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
@@ -99,6 +105,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="Form_start.Designer.vb">
+      <DependentUpon>Form_start.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form_start.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Ponderi.Designer.vb">
       <DependentUpon>Ponderi.vb</DependentUpon>
     </Compile>
@@ -110,6 +122,12 @@
     </Compile>
     <Compile Include="Raport.vb">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserControl1.Designer.vb">
+      <DependentUpon>UserControl1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl1.vb">
+      <SubType>UserControl</SubType>
     </Compile>
     <Compile Include="Vanzari.Designer.vb">
       <DependentUpon>Vanzari.vb</DependentUpon>
@@ -130,17 +148,26 @@
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Grafic Evolutie Pret.resx">
+      <DependentUpon>Grafic Evolutie Pret.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form_start.resx">
+      <DependentUpon>Form_start.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Ponderi.resx">
       <DependentUpon>Ponderi.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Raport.resx">
       <DependentUpon>Raport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl1.resx">
+      <DependentUpon>UserControl1.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Vanzari.resx">
       <DependentUpon>Vanzari.vb</DependentUpon>
