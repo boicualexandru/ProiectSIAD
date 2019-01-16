@@ -1,7 +1,17 @@
 ﻿Partial Class VanzariMasini2DataSet
+    Partial Public Class DotariDataTable
+        Private Sub DotariDataTable_ColumnChanging(sender As Object, e As DataColumnChangeEventArgs) Handles Me.ColumnChanging
+            If (e.Column.ColumnName = Me.IdColumn.ColumnName) Then
+                'Add user code here
+            End If
+
+        End Sub
+
+    End Class
+
     Partial Public Class DotariMasiniDataTable
         Private Sub DotariMasiniDataTable_ColumnChanging(sender As Object, e As DataColumnChangeEventArgs) Handles Me.ColumnChanging
-            If (e.Column.ColumnName = Me.NameColumn.ColumnName) Then
+            If (e.Column.ColumnName = Me.IdColumn.ColumnName) Then
                 'Add user code here
             End If
 
